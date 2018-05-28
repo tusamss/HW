@@ -1,7 +1,7 @@
 #include <stdio.h> 
 #define SIZE 10
 
-void bubbleSort(const int  *array, int size);    //非常數指標  氣泡排序副程式  
+void bubbleSort(const int  *const array, int size);    //非常數指標  氣泡排序副程式  
  
 int main(void)
 {
