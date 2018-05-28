@@ -50,8 +50,8 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
-[Unit1]
-FileName=..\..\Users\tu bo shian\Desktop\新增資料夾\bubbleSort.c
+[Unit2]
+FileName=bubbleSort.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -60,8 +60,8 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit2]
-FileName=..\..\Users\tu bo shian\Desktop\新增資料夾\main.c
+[Unit1]
+FileName=main.c
 CompileCpp=0
 Folder=
 Compile=1

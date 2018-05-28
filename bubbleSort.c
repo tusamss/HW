@@ -1,6 +1,6 @@
 void swap(int *element1Ptr,int *element2Ptr); // 數值互換副程式
 
-void bubbleSort( int  *const array ,int size)       //非常數指標  氣泡排序副程式 
+void bubbleSort( const int  * array ,int size)       //非常數指標  氣泡排序副程式 
 {
  int j,n;
  int count;
