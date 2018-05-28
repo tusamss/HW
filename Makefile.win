@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o bubbleSort.o
-LINKOBJ  = main.o bubbleSort.o
+OBJ      = "../../Users/tu\ bo\ shian/Desktop/新增資料夾/bubbleSort.o" "../../Users/tu\ bo\ shian/Desktop/新增資料夾/main.o"
+LINKOBJ  = "../../Users/tu bo shian/Desktop/新增資料夾/bubbleSort.o" "../../Users/tu bo shian/Desktop/新增資料夾/main.o"
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -24,8 +24,8 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-main.o: main.c
-	$(CC) -c main.c -o main.o $(CFLAGS)
+"../../Users/tu\ bo\ shian/Desktop/新增資料夾/bubbleSort.o": ../../Users/tu\ bo\ shian/Desktop/新增資料夾/bubbleSort.c
+	$(CC) -c "../../Users/tu bo shian/Desktop/新增資料夾/bubbleSort.c" -o "../../Users/tu bo shian/Desktop/新增資料夾/bubbleSort.o" $(CFLAGS)
 
-bubbleSort.o: bubbleSort.c
-	$(CC) -c bubbleSort.c -o bubbleSort.o $(CFLAGS)
+"../../Users/tu\ bo\ shian/Desktop/新增資料夾/main.o": ../../Users/tu\ bo\ shian/Desktop/新增資料夾/main.c
+	$(CC) -c "../../Users/tu bo shian/Desktop/新增資料夾/main.c" -o "../../Users/tu bo shian/Desktop/新增資料夾/main.o" $(CFLAGS)
